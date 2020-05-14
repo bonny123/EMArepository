@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html  lang="en">
+<!-- head section -->
+<head>
+	<title>OU Walking Club Admin | Add walk </title>
+	<link rel="STYLESHEET" type="text/css" href="q2a.css" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+</head>
+<!-- body section -->
+<body>
+	<!-- header and navigation -->
+<div id="container">
+ <header>
+	<div id="homeTitle">
+		<div id="oulogo"><img src="images/ou_logo.png" alt="Open University Logo" title="Open University Walking Club" /></div>
+		<h1>OU Walking Club<strong> Admin</strong></h1>
+	</div>
+	<nav id="blocks">
+	<ul>
+		<li>
+			<a href="http://www.open.ac.uk/">Sign in</a>
+		</li>
+		<li>
+			<a href="">Walks</a>
+		</li>
+		<li>
+			<a href="http://www.open.ac.uk/">Events</a>
+		</li>
+		<li>
+			<a href="http://www.open.ac.uk/">News</a>
+		</li>
+		<li>
+			<a href="http://www.open.ac.uk/">Members</a>
+		</li>
+		<li>
+			<a href="http://www.open.ac.uk/">Announcements</a>
+		</li>
+	</ul>
+	</nav>
+	<div id="breadcrumbs">
+	<ul>
+		<li>
+			<a href="http://www.open.ac.uk/">Sign in</a>
+		</li>
+		<li>
+			 > Walks
+		</li>
+	</ul>
+</div>
+ </header>
+ <!-- page content -->
+ <div id="content"><br />  
+ <div id="sideimage">
+ 	<img src="images/personboots.png" alt="walking boots">
+ </div>
+ 	<div class="Button">
+ 		<div><a href="http://www.open.ac.uk/">View all walks</a>
+ 	</div>
+ </div>
+
+ <h2>Add Walk</h2>
+ <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post" name="form1">
+<h3 id="sessionID">sessionID: 
+	<input type="text" name="sessionID" value="12345678-09ab-1111-cdef" />
+ </h3>
+ <h3><label for="name_of_walk">Name of walk: </label>
+ 	<input type="text" name="name_of_walk" id="name_of_walk" placeholder="Name of walk" size="30" maxlength="30" />
+ </h3>
+ <h3><label for="date_of_walk">Date and time of walk: </label>
+ 	<input type="date" name="date_of_walk" id="date_of_walk"  />
+ 	<input type="time" name="time_of_walk"  />
+ </h3>
+ <h3><label for="meeting">Meeting point: </label>
+ 	<textarea name="meeting_point" id="meeting" rows="1" cols="40" required maxlength="300" minlength="1" placeholder="Where will the group meet?"></textarea>
+ </h3>
+ <h3><label for="distance">Distance in miles: </label>
+ 	<input type="number" name="Distance" id="distance" value="0" min="0" />
+ </h3>
+ <h3><label for="difficulty">Difficulty:</label>
+   <select name="Difficulty" id="difficulty">
+    <option value="Easy, suitable for all">Easy, suitable for all</option>
+    <option value="Medium, a mix of terrain">Medium, a mix of terrain</option>
+    <option value="Hard, inclines and obstacles">Hard, inclines and obstacles</option>
+    <option value="Advanced, for the serious">Advanced, for the serious</option>
+  </select>
+ </h3>
+ <br>
+ 
+<div class="Button"><input type="submit" name="Submit" value="Submit" /></div>
+</form>
+</div>
+</div>
+<footer>
+	<div id="imagebox-footer">
+		<div class="Button">
+ 			<a href="http://www.open.ac.uk/">Visit the website section</a>
+ 		</div>
+	</div>
+</footer>
+</body>
+</html>
