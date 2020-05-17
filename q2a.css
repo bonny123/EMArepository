@@ -23,14 +23,8 @@ td {
 	font-size: 1.0em;
 	padding: 10px 0px 0px 0px;
 }
-#header {
+header {
 	width: 100%;
-}
-#header div {
-	float: right;
-}
-#LogOutButton {
-	border: 1px, solid, black;
 }
 nav{
     clear: both;
@@ -43,7 +37,7 @@ nav ul li {
 	background-color: #4b85bf;
 	margin: 1px;
 	padding: 5px;
-	width: 11%;
+	width: 12%;
 	float: left;
 	margin-bottom: 10px;
 	text-align: center;
@@ -53,7 +47,7 @@ nav ul {
 	
 }
 nav ul li:last-child {
-	width:30%;
+	width:28%;
 }
 nav li {
 	text-decoration: none;
@@ -79,6 +73,7 @@ nav li a {
 }
 #homeTitle {
 	margin: 10px;
+	width: 100%;
 }
 #homeTitle h1 {
 	padding-left: 100px;
@@ -97,8 +92,8 @@ nav li a {
 }
 #content {
 	clear: both;
-	width: 90%;
-	padding-bottom: 50px;
+	width: 92%;
+	padding-bottom: 20px;
 	background-color: #edf1f5;
 	padding-inline-start: 20px;
 	margin-left: 15px;
@@ -110,7 +105,7 @@ nav li a {
 #sideimage img{
 	float: right;
 	margin-right: 20px;
-	height: 300px;
+	width: 50%;
 }
 .Button {
 	margin-bottom: 20px;
@@ -128,35 +123,26 @@ nav li a {
 
 	font-size: 1rem;
 	background-color: #1bb55e;
-	padding: 5px;
+	padding: 7px;
 	margin-bottom: 20px;
 	text-decoration: none;
 	color: white;
 }
-.prompt {
-	font-size: 0.8em;
-	color: Teal;
-}
 footer	{
-	width: 90%;
+	width: 95%;
+	height: 350px;
 	background-color: #cdf7d8;
 	border-top-color: Gray;
 	border-top-style: solid;
 	border-top-width: 1px;
-	padding-inline-start: 20px;
 	margin: 15px;
 	padding-bottom: 30px;
-	/*margin-left: 15px;*/
-
 }
 footer	#imagebox-footer {
+    padding: 0 20px 0 20px;
 	margin-top: 20px;
+	float: left;
 }
 footer	#imagebox-footer img{
-	width: 50%;
-	margin-top: -5px;
-}
-footer	#imagebox-footer .Button {
-	float: right;
-	margin-right:20px;
+	width: 100%;
 }
