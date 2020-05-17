@@ -26,8 +26,14 @@ td {
 #header {
 	width: 100%;
 }
+#header div {
+	float: right;
+}
+#LogOutButton {
+	border: 1px, solid, black;
+}
 nav{
-
+    clear: both;
 	margin: 0 0 0 0;
     font-size: 100%;
     width: 100%;
